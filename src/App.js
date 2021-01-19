@@ -1,5 +1,5 @@
 // Components imports
-import FunctionalComponent from "./components/FunctionalComponent";
+import DogContainer from './DogContainer'
 
 // CSS imports
 import "./css/App.css";
@@ -7,7 +7,7 @@ import "./css/App.css";
 const App = () => {
   return (
     <div className="App">
-      <FunctionalComponent />
+      <DogContainer />
     </div>
   );
 };
